@@ -1,6 +1,6 @@
 body{
     box-sizing: border-box;
-    color: white;
+    
 }
 
 /*centering the two sections of section1*/
@@ -14,27 +14,55 @@ body{
 
 .section1header,
 .section1box {
-    width: 1200px;
-    background-color: blue;
+    width: 900px;
+    /*background-color: blue; */
     }
 
 .section1header {
     display: flex;
-    gap: 10px;
+    gap: 20px;
+    height: 50px;
+    align-items: center;
     }
 
-  .headerlinks {
+  .headerlinks,
+  .section1boxc.content {
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
     }
 
 .headerlinks.linkone {
     margin-left: auto;
 }
 
+.headerlogo {
+    font-size: 24px; 
+    color: #f9faf8;
+}
 
+.section1boxc.heading {
+    font-size: 48px; 
+    color: #f9faf8;
+}
 
 /*arranging the sections of section1box*/
 .section1box {
     display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 20px;
+  }
+
+.section1boxc.content {
+margin-bottom: 20px;
+}
+
+.section1boxc.button {
+    padding: 5px 25px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    font-size: 15px; 
+    color: #f9faf8;
 }
