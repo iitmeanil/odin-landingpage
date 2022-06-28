@@ -1,0 +1,40 @@
+body{
+    box-sizing: border-box;
+    color: white;
+}
+
+/*centering the two sections of section1*/
+.section1 {
+    background-color: #1F2937;
+    padding: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      }
+
+.section1header,
+.section1box {
+    width: 1200px;
+    background-color: blue;
+    }
+
+.section1header {
+    display: flex;
+    gap: 10px;
+    }
+
+  .headerlinks {
+    color: white;
+    text-decoration: none;
+    }
+
+.headerlinks.linkone {
+    margin-left: auto;
+}
+
+
+
+/*arranging the sections of section1box*/
+.section1box {
+    display: flex;
+}
