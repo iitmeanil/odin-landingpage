@@ -1,5 +1,6 @@
 body{
     box-sizing: border-box;
+    font-family: roboto;
     
 }
 
@@ -65,4 +66,83 @@ margin-bottom: 20px;
     background-color: #3882f6;
     font-size: 15px; 
     color: #f9faf8;
+}
+
+/*section 2*/
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2header,
+.section2contentwrapper {
+    width: 900px;
+}
+
+.section2header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.section2contentwrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    width: 220px;
+    text-align: center;
+}
+
+.section2image {
+    height: 180px;
+    width: 180px;
+    border-color: #3882f6;
+    border-radius: 8px;
+    border-width: 3px;
+}    
+
+.section3color {
+    background-color: #e5e7eb;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.section3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section3wrapper {
+    width: 700px;
+    margin: 50px 0;
+}
+.quote {
+    margin: 25px 0;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.customersignature {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: end;
 }
